@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Exercise Postcard</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Pixelify+Sans&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="postcard">
+			<!-- Fila 1: encabezado postal -->
+			<div class="postcard-header">
+				<div><h1>My Postcard</h1></div>
+				<div>
+					<img
+						src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+					/>
+				</div>
+			</div>
+
+			<!-- Fila 2: contenido postal -->
+			<div class="postcard-body">
+				<div class="body-left">
+					<p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+					<p>This is so cool, can't wait to start doing more stuff!</p>
+				</div>
+				<div class="body-right">
+					<form>
+						<input type="text" id="fname" name="fname" placeholder="Some Name" /><br /><br />
+						<input type="text" id="email" name="email" placeholder="Some email" /><br /><br />
+						<input type="text" id="comment" name="comment" placeholder="Some comment" /><br /><br />
+					</form>
+				</div>
+			</div>
+
+			<!-- Fila 3: botón postal-->
+			<div class="postcard-footer"><button>Send My Postcard</button></div>
+		</div>
+	</body>
+</html>
